@@ -5,7 +5,7 @@
                                       http://www.doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
     <entity name="Lexik\Bundle\TranslationBundle\Entity\Translation" 
-            table="lexik_trans_unit_translations">
+            table="trans_unit_translations">
 
         <unique-constraints>
             <unique-constraint name="trans_unit_locale_idx" columns="trans_unit_id,locale" />
