@@ -9,7 +9,7 @@
             repository-class="Lexik\Bundle\TranslationBundle\Entity\FileRepository">
             
         <unique-constraints>
-            <unique-constraint name="hash_idx" columns="hash" />
+            <unique-constraint name="hash_idx" columns="translation_hash" />
         </unique-constraints>
         
         <lifecycle-callbacks>
