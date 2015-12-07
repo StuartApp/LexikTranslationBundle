@@ -29,7 +29,7 @@
         
         <field name="path" column="path" type="string" length="255" />
         
-        <field name="hash" column="hash" type="string" length="255" />
+        <field name="hash" column="translation_hash" type="string" length="255" />
         
         <one-to-many field="translations" target-entity="Lexik\Bundle\TranslationBundle\Entity\Translation" mapped-by="file">
             <cascade>
