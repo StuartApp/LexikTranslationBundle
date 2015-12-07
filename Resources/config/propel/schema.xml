@@ -10,7 +10,7 @@
         <column name="locale" type="varchar" size="10" required="true" />
         <column name="extention" type="varchar" size="10" />
         <column name="path" type="varchar" size="255" />
-        <column name="hash" type="varchar" size="255" />
+        <column name="translation_hash" type="varchar" size="255" />
     </table>
 
     <table name="trans_unit" phpName="TransUnit" namespace="Lexik\Bundle\TranslationBundle\Propel">
